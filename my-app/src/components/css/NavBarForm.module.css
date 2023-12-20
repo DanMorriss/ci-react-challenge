@@ -70,7 +70,7 @@
     width: 100px;
     margin-left: 5px;
 }
-.NavBar button:hover{
+.NavBar button:hover {
     color: #4a4a4f;
     background-color: #e6ecf0;
     border: lightgrey solid 1px;
