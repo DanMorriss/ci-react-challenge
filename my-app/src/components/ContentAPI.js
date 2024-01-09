@@ -32,7 +32,7 @@ export class ContentAPI extends Component {
 
     handleChange = (event) => {
         const name = event.target.value.toLowerCase();
-        const filteredPosts = this.state.savedPosts.filter(post => {
+        const filteredPosts = this.state.savedPosts.filter((post) => {
             return post.user.toLowerCase().includes(name)
         })
         
